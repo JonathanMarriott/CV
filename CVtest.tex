@@ -1,0 +1,191 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+%\usepackage{lmodern}
+%\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bold-extra}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.325in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{0.875in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\color{blue}
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\def \ifempty#1{\def\temp{#1} \ifx\temp\empty }
+
+\newcommand{\resumeItem}[2]{
+  \item\small{
+  	\ifempty{#1}#2\else\textbf{#1}{: #2 \vspace{-2pt}}\fi
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r}
+  \textbf{\Large JONATHAN MARRIOTT} & \href{mailto:wq19209@bristol.ac.uk}
+  {wq19209@bristol.ac.uk}
+  & \href{https://www.github.com/JonathanMarriott}{github.com/JonathanMarriott}\\
+  Bristol, UK & 07392 829169 \\
+  
+\end{tabular*}
+
+%-----------PERSONAL SUMMARY----------------
+\section{Personal Summary}
+ {A committed and hardworking individual, who has a strong passion for computer science and mathematics.  A creative team member with proven written and verbal communication ability, keen to learn and develop further practical skills in cloud software and distributed systems.}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Bristol}{Bristol, UK}
+      {Mathematics \&  Computer Science MEng}{2019 - 2023}
+      \resumeItemListStart
+        \resumeItem{First year}
+        {Passed with mark of 84 (First Class)}
+ 	\resumeItem{Second year}
+        {In Progress: Completed January exams with average of 83 (First Class)}
+        \resumeItemListEnd
+      \resumeSubheading
+      {The Sixth Form College Farnborough}{Farnborough, UK}
+      {A Levels}{2017 - 2019}
+	  \resumeItemListStart
+        \resumeItem{A* A* A* A*}
+          {Mathematics, Further Mathematics, Computer Science, Physics}
+      \resumeItemListEnd
+ \resumeSubheading
+      {Weydon School}{Farnham, UK}
+      {11 GCSEs A*- A, including Maths and English Language}{2012 - 2017}
+  \resumeSubHeadingListEnd
+
+
+%--------SKILLS------------
+\section{Skills}
+  \textbf{Languages}{ Python, Java, C, Haskell, R, Javascript } \\
+  \textbf{Technologies}{ Linux, Git, Github, Maven, SciKit-learn, Pytorch, OpenCV (Java)} \\
+  
+
+
+%-----------TECHNICAL-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Volunteer}{Farnham, UK}
+      {Phyllis Tuckwell Hospice Charity Donation Centre}{Sep 2017 - Apr 2019}
+      \resumeItemListStart
+      	\resumeItem{}
+          {Accepted and managed donations from customers}
+        \resumeItem{}
+          {Judging the viability of items selling and culling stagnant inventory}
+        \resumeItem{}
+          {Suggested and implemented changes to improve the selection and quality of books in the shop front}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Commitee Member}{Bristol, UK}
+      {University of Bristol Cycling Club}{Mar 2020 - Present}
+      \resumeItemListStart
+      	\resumeItem{}
+          {Worked with others to organize and promote cycling events for University students}
+        \resumeItem{}  
+          {Contributing to club discussions on inclusivity within the sport}
+	\resumeItem{}  
+          {Helped to run club rides for members, complying with Covid rules, introducing new members to safe cycling in groups.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+
+%----------PROJECTS----------------
+\section{Projects \& Coursework}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {3D Printing Post Slice DLP Supporter}{\href{https://github.com/spe-uob/3DPrinting}
+      {github.com/spe-uob/3DPrinting}}
+      { Analyse sliced 3D models for unsupported areas and insert supports for them}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Multi-threaded Java based application using OpenCV Libraries to process large files at high speeds}
+	\resumeItem{}
+	{Developed within an agile team of 5 people, using git branching and merging to manage feature development}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Data Analysis}{\href{https://github.com/JonathanMarriott/DataDrivenCS}{github.com/JonathanMarriott/DataDrivenCS}}
+      {Data Driven Computer Science Labs and Coursework}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Using Scikit-Learn and Pytorch libraries to implement maximum likelihood estimates, linear and non-linear least squares regression in a practical setting}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%---------achievements------------
+\section{Achievements \& Interests}
+  \textbf{Duke of Edinburgh Gold \& Silver \& Bronze Award}{ Completed } \\
+  \textbf{ITC Level 3 Outdoor First Aid}{ Qualified}\\
+  \textbf{Road Cycling}{ Keen recreational cyclist who enjoys competing in time trial events} \\
+  \textbf{Electric Guitar}{ Avid player for over 4 years} \\
+  
+  
+  
+%-------------------------------------------
+\end{document}
