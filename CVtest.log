@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.16)  25 OCT 2021 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.16)  26 OCT 2021 10:11
 entering extended mode
 **./CVtest.tex
 (CVtest.tex
@@ -340,14 +340,16 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 a.sty
 Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
 )
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 82
+(C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounic
+ode.tex)
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 85
 .
 
 (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 82.
+(Font)              scaled to size 9.85492pt on input line 85.
 
 (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
 pdftex.def
@@ -357,24 +359,24 @@ File: l3backend-pdftex.def 2021-10-12 L3 backend support: PDF output (pdfTeX)
 ) (CVtest.aux)
 \openout1 = `CVtest.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
 \c@mv@tabular=\count274
 \c@mv@boldtabular=\count275
 
@@ -393,7 +395,7 @@ LaTeX Font Info:    ... okay on input line 82.
 \makeMPintoPDFobject=\count281
 \everyMPtoPDFconversion=\toks24
 )
-Package hyperref Info: Link coloring OFF on input line 82.
+Package hyperref Info: Link coloring OFF on input line 85.
 
 (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -408,55 +410,55 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
  (CVtest.out) (CVtest.out)
 \@outlinefile=\write3
 \openout3 = `CVtest.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 85.
+(Font)              <10.95> on input line 88.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 85.
+(Font)              <8> on input line 88.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 85.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 85
+(Font)              <6> on input line 88.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 88
 .
 
 (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 86.
+(Font)              scaled to size 9.85492pt on input line 89.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 86.
+(Font)              scaled to size 12.9599pt on input line 89.
 LaTeX Font Info:    Font shape `T1/qhv/m/sc' will be
-(Font)              scaled to size 9.85492pt on input line 94.
+(Font)              scaled to size 9.85492pt on input line 97.
 LaTeX Font Info:    Font shape `T1/qhv/m/sc' will be
-(Font)              scaled to size 10.79993pt on input line 94.
-LaTeX Font Info:    Trying to load font information for TS1+qhv on input line 9
-9.
+(Font)              scaled to size 10.79993pt on input line 97.
+LaTeX Font Info:    Trying to load font information for TS1+qhv on input line 1
+02.
 
 (C:\Users\Jonathan\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qhv.fd
 File: ts1qhv.fd 2009/09/25 v1.2 font definition file for TS1/qhv
 )
 LaTeX Font Info:    Font shape `TS1/qhv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 99.
-LaTeX Font Info:    Font shape `T1/qhv/m/it' will be
 (Font)              scaled to size 9.85492pt on input line 102.
 LaTeX Font Info:    Font shape `T1/qhv/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 102.
+(Font)              scaled to size 9.85492pt on input line 105.
+LaTeX Font Info:    Font shape `T1/qhv/m/it' will be
+(Font)              scaled to size 8.99994pt on input line 105.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 105.
+(Font)              scaled to size 8.99994pt on input line 108.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 105.
+(Font)              scaled to size 8.99994pt on input line 108.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 107.
+(Font)              <7> on input line 110.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 107.
+(Font)              <5> on input line 110.
 LaTeX Font Info:    Font shape `T1/qhv/b/it' will be
-(Font)              scaled to size 8.99994pt on input line 112.
+(Font)              scaled to size 8.99994pt on input line 115.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -471,10 +473,10 @@ Package rerunfilecheck Info: File `CVtest.out' has not changed.
 (rerunfilecheck)             Checksum: 9A0BD92EB7A8B2686B9901EFE15C8CFD;709.
  ) 
 Here is how much of TeX's memory you used:
- 10817 strings out of 478927
- 160540 string characters out of 2851112
- 497474 words of memory out of 3000000
- 28510 multiletter control sequences out of 15000+600000
+ 10822 strings out of 478927
+ 160784 string characters out of 2851112
+ 497489 words of memory out of 3000000
+ 28513 multiletter control sequences out of 15000+600000
  441248 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,66p,325b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -487,7 +489,7 @@ fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/Jonathan/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/Jonathan/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/Jonathan/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on CVtest.pdf (1 page, 105436 bytes).
+Output written on CVtest.pdf (1 page, 105642 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
